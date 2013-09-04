@@ -1,0 +1,17 @@
+{
+  "name": "hyper-json-client",
+  "version": "0.0.0",
+  "description": "js client api for consuming hyper-json apis",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "traverse": "~0.6.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Øyvind Fanebust",
+  "license": "BSD"
+}
