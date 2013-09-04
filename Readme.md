@@ -6,12 +6,10 @@
 
 ```javascript
 	var client = require('hyper-json-client');
-	client.load('http://root_url', {
-		success: function(res) {
-			//result contains 'foo' link
-			res.foo({
-				success: function(res){ console.log(res); }
-			});
-	}
+	client.load('http://root_url').then(function(result) {
+	    result.resource.foo().then(function(result) {
+	        console.log(result.status);
+	        console.log(result.resource);
+	    });
 	});
 ```
