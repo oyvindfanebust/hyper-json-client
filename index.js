@@ -1,4 +1,4 @@
-var parser = require('./parser');
+var parser = require('./src/parser');
 var obj = { 
 	_links: { foo : { href: 'foo'}},
 	sub: { _links : { bar: { href: 'bar'}}}

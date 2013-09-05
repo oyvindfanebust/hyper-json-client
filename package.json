@@ -2,7 +2,7 @@
   "name": "hyper-json-client",
   "version": "0.0.0",
   "description": "js client api for consuming hyper-json apis",
-  "main": "app.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/oyvindfanebust/hyper-json-client.git"

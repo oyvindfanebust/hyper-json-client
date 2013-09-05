@@ -1,6 +1,6 @@
 var assert = require('assert');
 var sinon = require('sinon');
-var composer = require('../composer');
+var composer = require('../src/composer');
 
 describe('when calling regular link', function() {
 	it('throws when href is not set', function() {
