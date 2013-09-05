@@ -18,5 +18,9 @@
     "test": "mocha"
   },
   "author": "Øyvind Fanebust",
-  "license": "BSD"
+  "license": "BSD",
+  "devDependencies": {
+    "sinon": "~1.7.3",
+    "assert": "~0.4.9"
+  }
 }
