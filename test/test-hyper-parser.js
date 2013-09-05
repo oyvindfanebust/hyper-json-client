@@ -1,5 +1,5 @@
 var assert = require('assert');
-var parser = require('../hyper-parser');
+var parser = require('../parser');
 
 describe('parsing a hyper+json object', function() {
 	it('sets function on object', function() {

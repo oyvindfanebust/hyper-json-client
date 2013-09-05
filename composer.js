@@ -1,4 +1,4 @@
-var parser = require('./hyper-parser');
+var parser = require('./parser');
 
 module.exports = function(obj, httpClient) {
 	return parser(obj, function(link) {

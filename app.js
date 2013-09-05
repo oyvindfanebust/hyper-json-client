@@ -1,4 +1,4 @@
-var parser = require('./hyper-parser');
+var parser = require('./parser');
 var obj = { 
 	_links: { foo : { href: 'foo'}},
 	sub: { _links : { bar: { href: 'bar'}}}
