@@ -3,11 +3,16 @@
   "version": "0.0.0",
   "description": "js client api for consuming hyper-json apis",
   "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oyvindfanebust/hyper-json-client.git"
+  },
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "traverse": "~0.6.5"
+    "traverse": "~0.6.5",
+    "underscore": "~1.5.1"
   },
   "scripts": {
     "test": "mocha"
