@@ -1,8 +1,8 @@
-var parser = require('./src/parser');
+var composer = require('./src/composer');
 var obj = { 
 	_links: { foo : { href: 'foo'}},
 	sub: { _links : { bar: { href: 'bar'}}}
 };
-var res = parser(obj, console.log);
+var res = composer(obj, console.log);
 res.foo();
 res.sub.bar();
